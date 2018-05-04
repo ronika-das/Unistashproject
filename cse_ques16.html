@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSE Question</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {font-family: "Lato", sans-serif ;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+
+}
+.parent {display: block;position: relative;float: left;line-height: 30px;background-color: black ; }
+.parent a{margin: 10px;color: #FFFFFF;text-decoration: none;font-size:20px;}
+.parent:hover > ul {display:block;position:absolute;}
+.child {display: none;}
+.child li {background-color: white; width:100%;}
+.child li a{color: black;}
+ul{list-style: none;margin: 0;padding: 0px; min-width:10em;}
+ul ul ul{left: 100%;top: 0;margin-left:1px;}
+li:hover {background-color: #6d6767; color:black; }
+.parent li:hover {background-color: #e5dcdc; }
+.expand{font-size:14px;float:right;margin-right:5px;}
+.mySlides {display: none}
+</style>
+
+</head>
+<body >
+<img src="book1.jpg" style="width:100% ; height:100%; position:absolute">
+<div class="container" style="position:absolute; margin-top:50px ; margin-left:50px">
+  <h2 style="margin-top:50px">Computer Science Engineering(2016)</h2>
+  
+  <div class="panel-group" id="accordion" style="width:400px">
+    <div class="panel panel-default">
+      <div class="panel-heading" >
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Semester 1</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+		
+		<a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br>
+		
+		
+		</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Semester 2</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+		<a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br>
+		</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Semester 3</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body"><a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br></div>
+      </div>
+    </div>
+	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Semester 4</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body"><a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br></div>
+      </div>
+    </div>
+	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Semester 5</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body"><a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br></div>
+      </div>
+    </div>
+	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Semester 6</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body"> 
+		<a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br>
+		</div>
+      </div>
+    </div>
+	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Semester 7</a>
+        </h4>
+      </div>
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body"><a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br></div>
+      </div>
+    </div>
+	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Semester 8</a>
+        </h4>
+      </div>
+      <div id="collapse8" class="panel-collapse collapse">
+        <div class="panel-body">
+		<a href="#">Minor 1</a><br>
+		<a href="#">Minor 2</a><br>
+		<a href="#">End Term</a><br>
+		<a href="#">Assignments</a><br></div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+<!-- Navbar -->
+<div class="top" style="width:100%; height:45px; border:1px solid black; position:absolute; background-color:black">
+<ul id="menu">
+	<li class="parent" style="margin-left:200px"><a href="btech.html">Home</a></li>
+	<li class="parent"><a href="btechnotes.html">Notes</a></li>
+		<li class="parent"><a href="#">Question Paper</a>
+	<ul class="child">
+		<li class="parent" style="width:250px"><a href="#">Computer Science <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="cse_ques17.html">2017</a></li>
+			<li><a href="cse_ques16.html">2016</a></li>
+			<li><a href="cse_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Information Technology <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="it_ques17.html">2017</a></li>
+			<li><a href="it_ques16.html">2016</a></li>
+			<li><a href="it_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">ECE <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="ece_ques17.html">2017</a></li>
+			<li><a href="ece_ques16.html">2016</a></li>
+			<li><a href="ece_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Mechanical<span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="mae_ques17.html">2017</a></li>
+			<li><a href="mae_ques16.html">2016</a></li>
+			<li><a href="mae_ques15.html">2015</a></li>
+			</ul>
+		</li>		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">Practicals</a>
+	<ul class="child" style="width:250px">			
+		<li><a href="cse_prac.html" style="width:350px">Computer Science</a></li>
+		<li><a href="it_prac.html" style="width:350px">IT</a></li>
+		<li><a href="ece_prac.html" style="width:350px">ECE</a></li>
+		<li><a href="mae_prac.html" style="width:350px">MAE</a></li>
+		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">More</a>
+	<ul class="child">			
+		<li><a href="#">Lesson Plan</a></li>
+		<li><a href="#">Syllabus</a></li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">Interviews</a></li>
+		<li><a href="#">Tips and Tricks</a></li>
+	</ul>
+	</li>
+	<li class="parent"><a href="about.html">About Unistash</a></li>
+	<li class="parent"><a href="team.html">Our Team</a></li>
+	<li class="parent"><a href="contact.html">Contact Us</a></li>
+	<li class="parent"><a href="contribute.html">Contribute</a></li>
+</ul>
+</div>
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+    * For full source code, visit http://www.mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+
+
+
+
+
+
+</body>
+</html>

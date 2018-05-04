@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Team</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.parent {display: block;position: relative;float: left;line-height: 30px;background-color: black ; }
+.parent a{margin: 10px;color: #FFFFFF;text-decoration: none;font-size:20px;}
+.parent:hover > ul {display:block;position:absolute;}
+.child {display: none;}
+.child li {background-color: white; width:100%;}
+.child li a{color: black;}
+ul{list-style: none;margin: 0;padding: 0px; min-width:10em;}
+ul ul ul{left: 100%;top: 0;margin-left:1px;}
+li:hover {background-color: #6d6767; color:black; }
+.parent li:hover {background-color: #e5dcdc; }
+.expand{font-size:14px;float:right;margin-right:5px;}
+body {font-family: "Lato", sans-serif;
+	width:100%;
+	height:100%;
+	
+	background-repeat:no-repeat;
+	
+	position:absolute;
+}
+
+</style>
+</head>
+
+
+<body>
+<!-- Navbar -->
+
+<img src="book2.jpg" style="width:1590px ; height:750px; position:absolute">
+
+<h1 style="margin-left:640px; margin-top:90px; position:absolute"><strong>Our Team</strong></h1>
+<div style="width:1000px; height:500px; border:5px solid black; background-color:white; position:absolute; margin-left:270px; margin-top:190px">
+</div>
+
+<div class="top" style="width:100%; height:50px; border:1px solid black; position:absolute; background-color:black">
+<ul id="menu">
+	<li class="parent" style="margin-left:200px"><a href="btech.html">Home</a></li>
+	<li class="parent"><a href="btechnotes.html">Notes</a></li>
+	<li class="parent"><a href="#">Question Paper</a>
+	<ul class="child">
+		<li class="parent" style="width:250px"><a href="#">Computer Science <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="cse_ques17.html">2017</a></li>
+			<li><a href="cse_ques16.html">2016</a></li>
+			<li><a href="cse_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Information Technology <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="it_ques17.html">2017</a></li>
+			<li><a href="it_ques16.html">2016</a></li>
+			<li><a href="it_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">ECE <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="ece_ques17.html">2017</a></li>
+			<li><a href="ece_ques16.html">2016</a></li>
+			<li><a href="ece_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Mechanical<span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="mae_ques17.html">2017</a></li>
+			<li><a href="mae_ques16.html">2016</a></li>
+			<li><a href="mae_ques15.html">2015</a></li>
+			</ul>
+		</li>		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">Practicals</a>
+	<ul class="child" style="width:250px">			
+		<li><a href="cse_prac.html" style="width:350px">Computer Science</a></li>
+		<li><a href="it_prac.html" style="width:350px">IT</a></li>
+		<li><a href="ece_prac.html" style="width:350px">ECE</a></li>
+		<li><a href="mae_prac.html" style="width:350px">MAE</a></li>
+		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">More</a>
+	<ul class="child">			
+		<li><a href="#">Lesson Plan</a></li>
+		<li><a href="#">Syllabus</a></li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">Interviews</a></li>
+		<li><a href="#">Tips and Tricks</a></li>
+	</ul>
+	</li>
+	<li class="parent"><a href="about.html">About Unistash</a></li>
+	<li class="parent"><a href="team.html">Our Team</a></li>
+	<li class="parent"><a href="contact.html">Contact Us</a></li>
+	<li class="parent"><a href="contribute.html">Contribute</a></li>
+</ul>
+</div>
+
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+    * For full source code, visit http://www.mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.parent {display: block;position: relative;float: left;line-height: 30px;background-color: black ; }
+.parent a{margin: 10px;color: #FFFFFF;text-decoration: none;font-size:20px;}
+.parent:hover > ul {display:block;position:absolute;}
+.child {display: none;}
+.child li {background-color: white; width:100%;}
+.child li a{color: black;}
+ul{list-style: none;margin: 0;padding: 0px; min-width:10em;}
+ul ul ul{left: 100%;top: 0;margin-left:1px;}
+li:hover {background-color: #6d6767; color:black; }
+.parent li:hover {background-color: #e5dcdc; }
+.expand{font-size:14px;float:right;margin-right:5px;}
+body {font-family: "Lato", sans-serif;
+	width:100%;
+	height:100%;
+	
+	background-repeat:no-repeat;
+	
+	position:absolute;
+}
+.mySlides {display: none;
+
+	position:absolute;}
+.mySlides w3-display-container w3-center{
+	position:absolute
+	
+}
+</style>
+</head>
+
+
+<body>
+
+<img src="book11.png" style="width:1537px ; height:758px; position:absolute">
+<div class="top" style="width:100%; height:50px; border:1px solid black; position:absolute; background-color:black">
+<ul id="menu">
+	<li class="parent" style="margin-left:200px"><a href="btech.html">Home</a></li>
+	<li class="parent"><a href="btechnotes.html">Notes</a></li>
+	<li class="parent"><a href="#">Question Paper</a>
+	<ul class="child">
+		<li class="parent" style="width:250px"><a href="#">Computer Science <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="cse_ques17.html">2017</a></li>
+			<li><a href="cse_ques16.html">2016</a></li>
+			<li><a href="cse_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Information Technology <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="it_ques17.html">2017</a></li>
+			<li><a href="it_ques16.html">2016</a></li>
+			<li><a href="it_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">ECE <span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="ece_ques17.html">2017</a></li>
+			<li><a href="ece_ques16.html">2016</a></li>
+			<li><a href="ece_ques15.html">2015</a></li>
+			</ul>
+		</li>
+		<li class="parent" style="width:250px"><a href="#">Mechanical<span class="expand">&raquo;</span></a>
+			<ul class="child">
+			<li><a href="mae_ques17.html">2017</a></li>
+			<li><a href="mae_ques16.html">2016</a></li>
+			<li><a href="mae_ques15.html">2015</a></li>
+			</ul>
+		</li>		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">Practicals</a>
+	<ul class="child" style="width:250px">			
+		<li><a href="cse_prac.html" style="width:350px">Computer Science</a></li>
+		<li><a href="it_prac.html" style="width:350px">IT</a></li>
+		<li><a href="ece_prac.html" style="width:350px">ECE</a></li>
+		<li><a href="mae_prac.html" style="width:350px">MAE</a></li>
+		
+	</ul>
+	</li>
+	<li class="parent"><a href="#">More</a>
+	<ul class="child">			
+		<li><a href="#">Lesson Plan</a></li>
+		<li><a href="#">Syllabus</a></li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">Interviews</a></li>
+		<li><a href="#">Tips and Tricks</a></li>
+	</ul>
+	</li>
+	<li class="parent"><a href="about.html">About Unistash</a></li>
+	<li class="parent"><a href="team.html">Our Team</a></li>
+	<li class="parent"><a href="contact.html">Contact Us</a></li>
+	<li class="parent"><a href="contribute.html">Contribute</a></li>
+</ul>
+</div>
+<h1 style="margin-left:50px; margin-top:70px; position:absolute">Contact Us</h1>
+<p>Have a query? Have a suggestion? Write to us!</p>
+<div class="con" style="margin-left:40px ; margin-top:90px ; border:5px solid white; width:620px;height:350px; position:absolute; padding:10px 10px 10px 10px">
+<form action="post">
+
+<p><strong>Name:</strong><input type="text" name="name" style="margin-left:50px"></p><br>
+<p><strong>E-mail ID:</strong><input type="text" name="email" style="margin-left:30px"></p><br>
+<p><p style="position:absolute; margin-top:50px"><strong>Message:</strong></p><textarea name="comment" rows="3" cols="50" style="margin-left:95px"></textarea></p><br>
+<input type="submit" value="Submit" style="margin-left:450px">
+
+</form>
+
+</div>
+
+<p style="color:white; position:absolute; margin-top:460px; margin-left:50px; font-size:18px">You can also mail us at unistash@gmail.com</p>
+<h3 style="color:white; position:absolute; margin-top:490px; margin-left:50px">Address:</h3>
+<p style="color:white ; position:absolute ; margin-top:540px; margin-left:50px; font-size:15px">Indira Gandhi Delhi Technical University for Women<br>
+Kashmere Gate<br>
+Opp. St. James Church, <br>
+New Delhi, Delhi 110006<br>
+</p>
+
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+    * For full source code, visit http://www.mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+</body>
+
+</html>
